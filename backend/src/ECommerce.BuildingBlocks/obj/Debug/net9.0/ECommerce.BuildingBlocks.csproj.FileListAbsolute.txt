@@ -1,0 +1,12 @@
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\bin\Debug\net9.0\ECommerce.BuildingBlocks.deps.json
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\bin\Debug\net9.0\ECommerce.BuildingBlocks.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\bin\Debug\net9.0\ECommerce.BuildingBlocks.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ECommerce.BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ECommerce.BuildingBlocks.AssemblyInfoInputs.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ECommerce.BuildingBlocks.AssemblyInfo.cs
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ECommerce.BuildingBlocks.csproj.CoreCompileInputs.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ECommerce.BuildingBlocks.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\refint\ECommerce.BuildingBlocks.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ECommerce.BuildingBlocks.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ref\ECommerce.BuildingBlocks.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\ECommerce.BuildingBlocks\obj\Debug\net9.0\ECommerce.BuildingBlocks.csproj.AssemblyReference.cache

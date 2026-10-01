@@ -1,0 +1,15 @@
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\bin\Debug\net9.0\ECommerce.Modules.Order.deps.json
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\bin\Debug\net9.0\ECommerce.Modules.Order.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\bin\Debug\net9.0\ECommerce.Modules.Order.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\bin\Debug\net9.0\ECommerce.BuildingBlocks.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\bin\Debug\net9.0\ECommerce.BuildingBlocks.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerce.Modules.Order.csproj.AssemblyReference.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerce.Modules.Order.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerce.Modules.Order.AssemblyInfoInputs.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerce.Modules.Order.AssemblyInfo.cs
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerce.Modules.Order.csproj.CoreCompileInputs.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerc.71310F8E.Up2Date
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerce.Modules.Order.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\refint\ECommerce.Modules.Order.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ECommerce.Modules.Order.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Order\obj\Debug\net9.0\ref\ECommerce.Modules.Order.dll

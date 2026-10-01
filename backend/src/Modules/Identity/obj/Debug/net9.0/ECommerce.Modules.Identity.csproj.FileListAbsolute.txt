@@ -1,0 +1,15 @@
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\bin\Debug\net9.0\ECommerce.Modules.Identity.deps.json
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\bin\Debug\net9.0\ECommerce.Modules.Identity.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\bin\Debug\net9.0\ECommerce.Modules.Identity.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\bin\Debug\net9.0\ECommerce.BuildingBlocks.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\bin\Debug\net9.0\ECommerce.BuildingBlocks.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerce.Modules.Identity.csproj.AssemblyReference.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerce.Modules.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerce.Modules.Identity.AssemblyInfoInputs.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerce.Modules.Identity.AssemblyInfo.cs
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerce.Modules.Identity.csproj.CoreCompileInputs.cache
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerc.06546699.Up2Date
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerce.Modules.Identity.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\refint\ECommerce.Modules.Identity.dll
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ECommerce.Modules.Identity.pdb
+C:\Users\bmont\OneDrive\Desktop\ecommerce\backend\src\Modules\Identity\obj\Debug\net9.0\ref\ECommerce.Modules.Identity.dll

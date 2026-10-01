@@ -1,0 +1,50 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ECommerce.Api/ECommerce.Api.csproj" />
+    <Project Path="src/ECommerce.BuildingBlocks/ECommerce.BuildingBlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Cart/">
+    <Project Path="src/Modules/Cart/ECommerce.Modules.Cart.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/ECommerce.Modules.Identity.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Inventory/">
+    <Project Path="src/Modules/Inventory/ECommerce.Modules.Inventory.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Notification/">
+    <Project Path="src/Modules/Notification/ECommerce.Modules.Notification.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Order/">
+    <Project Path="src/Modules/Order/ECommerce.Modules.Order.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Payment/">
+    <Project Path="src/Modules/Payment/ECommerce.Modules.Payment.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Product/">
+    <Project Path="src/Modules/Product/ECommerce.Modules.Product.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Promotion/">
+    <Project Path="src/Modules/Promotion/ECommerce.Modules.Promotion.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Review/">
+    <Project Path="src/Modules/Review/ECommerce.Modules.Review.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Search/">
+    <Project Path="src/Modules/Search/ECommerce.Modules.Search.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Shipping/">
+    <Project Path="src/Modules/Shipping/ECommerce.Modules.Shipping.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/ArchitectureTests/">
+    <Project Path="tests/ArchitectureTests/ECommerce.ArchitectureTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/ECommerce.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/ECommerce.UnitTests.csproj" />
+  </Folder>
+</Solution>
