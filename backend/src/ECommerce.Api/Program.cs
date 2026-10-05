@@ -12,6 +12,7 @@ using ECommerce.Modules.Search;
 using ECommerce.Modules.Shipping;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Prometheus;
 using Serilog;
 using System.Text;
 
@@ -41,10 +42,21 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 builder.Services.AddAuthorization();
 
-// 3. Register Shared BuildingBlocks
+// 3. CORS Policy for SPA Frontend
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+// 4. Register Shared BuildingBlocks
 builder.Services.AddBuildingBlocks(builder.Configuration);
 
-// 4. Register Autonomous Bounded Context Modules
+// 5. Register Autonomous Bounded Context Modules
 builder.Services.AddIdentityModule(builder.Configuration);
 builder.Services.AddProductModule(builder.Configuration);
 builder.Services.AddInventoryModule(builder.Configuration);
@@ -57,15 +69,17 @@ builder.Services.AddReviewModule(builder.Configuration);
 builder.Services.AddNotificationModule(builder.Configuration);
 builder.Services.AddSearchModule(builder.Configuration);
 
-// 5. OpenAPI Documentation & HealthChecks
+// 6. OpenAPI Documentation & HealthChecks
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks();
 
 var app = builder.Build();
 
-// 6. Middlewares pipeline
+// 7. Middlewares pipeline
 app.UseBuildingBlocks();
+app.UseCors("AllowAll");
+app.UseHttpMetrics();
 
 if (app.Environment.IsDevelopment())
 {
@@ -76,11 +90,12 @@ if (app.Environment.IsDevelopment())
 app.UseAuthentication();
 app.UseAuthorization();
 
-// 7. Health Check Endpoints (K8s Probes)
+// 8. Health Check & Metrics Endpoints (K8s Probes & Prometheus)
 app.MapGet("/health/live", () => Results.Ok(new { status = "ALIVE", timestamp = DateTime.UtcNow }));
 app.MapGet("/health/ready", () => Results.Ok(new { status = "READY", timestamp = DateTime.UtcNow }));
+app.MapMetrics();
 
-// 8. Map Modular Endpoints
+// 9. Map Modular Endpoints
 app.MapIdentityEndpoints();
 app.MapProductEndpoints();
 app.MapInventoryEndpoints();

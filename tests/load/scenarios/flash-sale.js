@@ -23,14 +23,15 @@ export const options = {
 };
 
 const BASE_URL = __ENV.API_URL || 'http://localhost:8080';
-const FLASH_SKU_ID = '3fa85f64-5717-4562-b3fc-2c963f66afa6';
+const FLASH_SKU_ID = '71e6fd02-3410-4fac-a801-bf629ff1fc6a';
 
 export default function () {
   const userId = `user-${__VU}-${__ITER}`;
   const idempotencyKey = `idemp-${userId}`;
+  const randomOrderId = '00000000-0000-4000-8000-' + Math.floor(Math.random() * 1000000000000).toString().padStart(12, '0');
 
   const payload = JSON.stringify({
-    orderId: '4fa85f64-5717-4562-b3fc-2c963f66afa7',
+    orderId: randomOrderId,
     items: [
       {
         skuId: FLASH_SKU_ID,

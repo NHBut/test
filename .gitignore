@@ -1,0 +1,79 @@
+## ==========================================
+## Visual Studio & IDEs
+## ==========================================
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.swp
+*~
+
+## ==========================================
+## .NET / C# Build Outputs
+## ==========================================
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages & Assets
+*.nupkg
+*.snupkg
+**/packages/
+!**/packages/build/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Test & Code Coverage Results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+*.mshc
+*.msCoverageSourceRootsMapping*
+CoverletSourceRootsMapping*
+_ReSharper*/
+*.DotSettings.user
+
+# Publish / Deploy Output
+**/publish/
+publish/
+
+## ==========================================
+## Node & Frontend
+## ==========================================
+**/node_modules/
+node_modules/
+**/dist/
+dist/
+.npm/
+*.tsbuildinfo
+
+## ==========================================
+## Environment & Secrets
+## ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!*.env.example
+
+## ==========================================
+## Logs, OS & Temporary Files
+## ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.log
+*.tmp
+*.temp
